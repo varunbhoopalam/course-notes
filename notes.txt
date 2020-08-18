@@ -2,4 +2,11 @@ Lecture 1A: Overview and Introduction to Lisp
 
 Computer science is about managin complexity of complex systems. We manage complexity through prodedure, a pattern of rules, implemented in programming languages to talk about imperative knowledge, how to do things. Three techniques of managing complexity are blackbox abstraction, conventional inference, and metalinguistic abstraction. The last one is creation of programming language to expose or hide complexity. A framework for understanding programming languages are to ask three questions. What are the primitives? How do we combine primitives? How do we add abstraction?
 
--Varun
+
+Lecture 1B: Procedures and Processes; Substitution Model
+
+Part of being a computer scientist is to understand the relationships between procedures/rules and the shape of the process that comes from invoking them. Examples classification of the shape of the algorithm are iteration, recursive, and exponential. The substitution model was introduced to help evaluate the relationship between procedures and shapes. A programmers intuition can be trained to evaluate this relationship.
+
+One quote that resonated with me strongly is this idea:
+"The key to understanding complicated things is to understand what details to avoid."
+
