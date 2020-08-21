@@ -2,6 +2,7 @@ Lecture 1A: Overview and Introduction to Lisp
 
 Computer science is about managin complexity of complex systems. We manage complexity through prodedure, a pattern of rules, implemented in programming languages to talk about imperative knowledge, how to do things. Three techniques of managing complexity are blackbox abstraction, conventional inference, and metalinguistic abstraction. The last one is creation of programming language to expose or hide complexity. A framework for understanding programming languages are to ask three questions. What are the primitives? How do we combine primitives? How do we add abstraction?
 
+-----------------------------------------------------------------------------------------------------
 
 Lecture 1B: Procedures and Processes; Substitution Model
 
@@ -10,3 +11,8 @@ Part of being a computer scientist is to understand the relationships between pr
 One quote that resonated with me strongly is this idea:
 "The key to understanding complicated things is to understand what details to avoid."
 
+-----------------------------------------------------------------------------------------------------
+
+Lecture 2A: Higher-order Procedures
+
+Higher order procedures allow a programmer to share ideas across different abstractions. This is nice because it allows for a couple things. It improves human understanding of how a program works and makes it easier to write and read code. It also allows a change in the implementation of an idea with minimal re-work in the rest of the application. A higher order function means that procedures are first class citizens in a language.
