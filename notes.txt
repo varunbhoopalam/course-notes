@@ -16,3 +16,9 @@ One quote that resonated with me strongly is this idea:
 Lecture 2A: Higher-order Procedures
 
 Higher order procedures allow a programmer to share ideas across different abstractions. This is nice because it allows for a couple things. It improves human understanding of how a program works and makes it easier to write and read code. It also allows a change in the implementation of an idea with minimal re-work in the rest of the application. A higher order function means that procedures are first class citizens in a language.
+
+-----------------------------------------------------------------------------------------------------
+
+Lecture 2B: Compound Data
+
+One technique for managing complex data is to use compound data structures and data abstraction. The programmer uses compound data to better express their ideas in a programming language. This allows the programmer to make implementation decisions but not be bound/coupled tightly to those decisions. Further, it allows the programmer the ability to put off on deciding on a specific implementation as long as a contract is in place about what the abstraction represents and it's access and builder methods. When designing with data abstraction in mind, wishful thinking is often a very powerful tool to develop complex systems. The line between what is considered data and what is considered a procedure may be a very blurry line. It is possible that compound data may actually be implemented as combinations of higher order procedures.
